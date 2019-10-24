@@ -1,0 +1,5 @@
+postgresqlDatabase: db
+service:
+  type: LoadBalancer
+persistence:
+  size: 16Gi
