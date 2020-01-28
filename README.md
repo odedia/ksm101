@@ -99,6 +99,14 @@ MARKETPLACE NAME	INCLUDED CHARTS	VERSION	PLANS
 postgresql-odb  	postgresql-odb 	6.5.2  	[large medium small]
 ```
 
+Enable service access from the cf marketplace:
+```
+bash
+cf enable-service-access postgresql-odb
+Enabling access to all plans of service postgresql-odb for all orgs as admin...
+OK
+```
+
 Check this service is available in Pivotal Platform marketplace:
 ```bash
 $ cf marketplace -s postgresql-odb
